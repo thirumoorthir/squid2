@@ -6,6 +6,8 @@
 #   include squid
 class squid2 {
 
+include squid 
+
 class {'squid': 
   cache_mem                 => '512 MB',
   workers                   => 3,
