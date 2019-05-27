@@ -44,6 +44,4 @@ class {'squid':
 }
   squid::http_port { '127.0.0.1:3128':}
 
-
 }
-
